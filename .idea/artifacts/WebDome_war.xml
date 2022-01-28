@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WebDome:war">
+    <output-path>$PROJECT_DIR$/WebDome/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>WebDome</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="WebDome-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="WebDome:war exploded" />
+    </root>
+  </artifact>
+</component>
